@@ -28,7 +28,7 @@ state of a patient must be died or alive - we adjust that as well
 # Your Question - Is dying independent of sex?
 
 ## methods
-  We will analyze the sex of the Korean patients and the result of whether they are alive or deceased.
+  We will analyze the sex of the Korean patients and the result of whether they are alive or deceased. Ill the variables in Cat~cat, for this problem we can use the helper file to copy the neccesary code and run the data to find the correct answer.
 
 
 
