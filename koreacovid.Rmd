@@ -31,11 +31,11 @@ state of a patient must be died or alive - we adjust that as well
   We will analyze the sex of the Korean patients and the result of whether they are alive or deceased. Ill the variables in Cat~cat, for this problem we can use the helper file to copy the neccesary code and run the data to find the correct answer.
 
 
-
+  
 
 ## Graphical results - use ggplot commands to do this  
 
-
+### Plot barplots gg way
 
   
 
@@ -46,6 +46,12 @@ state of a patient must be died or alive - we adjust that as well
   
 ## Numerical results
 
+```{r}
+table1 <- xtabs(~result + Sex, data=kRdata)
+rowPerc(table1)
+colPerc(table1)
+```
+The percentages show that more females are alive after having covid then men by 56 to 44 Percent alive. While dead is 36% females to a 64% men are dead. In the overall population is 1.4 percent of females had died and 3 percent of men were dead out of the 100%.
 
 ## Inferential results 
 
