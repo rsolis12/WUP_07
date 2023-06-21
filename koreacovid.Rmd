@@ -55,8 +55,13 @@ The percentages show that more females are alive after having covid then men by 
 
 ## Inferential results 
 
-
-
+```{r}
+chisq.test(table1)
+chisqtestGC(table1)
+fisher.test(table1)
+```
+In the group 1817 and 1411, overall the female sex survived more then men. So the p value is 1 out of a thousand, it is a small chance of a male and female dying. In fishers test 9 out of 10,000 p value is essentially  the same. This shows us the ratio of  females living over males dying.
 
 ## Conclusions
 
+In today lesson i learned how to use helper file cat~cat to take the covid take from korea and compare which sex was most affected. By changing the data in the helper file to the data in kRdata the computer sorted and created the data chart necessary to show me the results from Fisher exact test. Thus i learned men in korea died overall 2.6 percent more then women in ther overall population.
